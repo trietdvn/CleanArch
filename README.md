@@ -27,17 +27,17 @@ A solution starter for creating a instant ASP.NET Core Api following the princip
 - Custom Exception Handling Middleware
 - Account Management (Register, Forgot Password, Confirmation Mail)
 
-## Getting Start
+## Getting Started
 1. Migrate database
 ```
 update-database -context IdentityContext
 update-database -context ApplicationDbContext
 ```
-2. Run Api
+2. Start Api project
 3. Get token
-POST <your-host>/connect/token with following params(x-www-form-urlencoded)
-grant_type=password
-username=cleanarch@mailinator.com
-password=Admin%40123
-client_id=MyClientId
-client_secret=MyClientSecret
+POST <your-host>/connect/token with following params (x-www-form-urlencoded)
+- grant_type=password
+- username=cleanarch@mailinator.com
+- password=Admin@123
+- client_id=MyClientId
+- client_secret=MyClientSecret
